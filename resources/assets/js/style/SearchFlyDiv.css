@@ -1,0 +1,106 @@
+#searchFlyDiv {
+    background: url(graphics/panorama.jpg) no-repeat center;
+    color: #fff;
+}
+#formDiv { 
+    width: 80%;
+    margin: auto;
+    padding: 20px;  
+    letter-spacing: 2px;
+}
+table {
+    margin: auto;
+}
+form ul{    
+    list-style-type: none;  
+}
+form input[type='submit'],
+form .select,
+form input[type='date'],
+form input[type='number'] {
+    background: #729fb4;
+	border: 1px solid #729fb4;
+	border-bottom: 1px solid #f9be55;
+	color: #252839;
+	text-align: center;
+	border-radius: 4px 4px 0 0;
+    margin-left: 10px;
+}
+form .select {
+    width: 95px;
+}
+#oneWayCell {
+    border-top: none;
+}
+@media (min-width:740px) and (max-width:830px) {
+    #formDiv {
+        width: 90%;
+    }
+}
+@media (min-width:670px) and (max-width:729px) {
+    #formDiv {
+        width: 100%;
+    }
+}
+@media (min-width:599px) and (max-width:699px) {
+    #formDiv {
+        width: 90%;         
+    }
+    #formDiv h2 {
+        font-size: 20px;
+    }
+    form input[type='submit'],
+    form .select,
+    form input[type='date'],
+    form input[type='number'] {
+        margin: 0;
+    }
+}
+@media (max-width:598px) {
+    #formDiv {
+        width: 100%;        
+    }
+    #formDiv h2 {
+        font-size: 15px;
+    }
+}
+
+#fly {
+    margin: auto;
+    text-align: center;
+    width: 98%;
+    margin-bottom: 65px;
+}
+.flights:nth-child(odd) {
+    background: #b2c1bd; 
+}
+.flights:nth-child(even) {
+    background: #c1bda0; 
+}
+.destination,
+.price,
+.luggage,
+.booking {
+    border-bottom: 1px solid #e7e8e8;
+    height: 110px;
+}
+.price,
+.luggage { 
+    padding-top: 20px;
+}
+#bookingBtn {
+    background: #2b343c;
+    border: #2b343c;
+    margin-top: 30px;
+}
+#bookingBtn:hover {
+    background: #ddb868;
+    border: #ddb868;
+}
+@media (max-width:555px) {
+.destination,
+.price,
+    .luggage {
+        height: 130px;
+    }
+}

@@ -1,0 +1,62 @@
+nav {
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    color: #2b343c;
+    letter-spacing: 2px;
+    
+}
+nav h2 {
+    float: left;
+    padding-left: 20px;
+}
+nav form {
+    float: right;
+    margin-right: 20px;
+    padding: 5px;
+}
+nav p {
+    padding: 0 5px;
+}
+nav input[type='email'],
+nav input[type='password'] {
+    border-radius: 5px;
+    background: #e7e8e8;
+    border: 1px solid #e7e8e8;
+    border-bottom: 1px solid #F2B632;
+}
+#btnLogIn:hover {
+    background: #ddb868;
+    border: 1px solid #ddb868;
+}
+@media (min-width: 610px) and (max-width: 660px) {
+    nav h2 {
+        font-size: 20px;
+    }
+    nav input[type='password'] {
+        padding-right: 10px;
+    }
+}
+@media (min-width: 420px) and (max-width: 609px) {
+    nav {
+        height: 90px;
+    }
+    nav h2 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 419px) {
+    nav {
+        height: 90px;
+    }
+    nav h2 {
+        font-size: 20px;
+    }
+    nav input[type='email'],
+    nav input[type='password'] {
+        width: 50px;
+    }
+}
+
+
+    

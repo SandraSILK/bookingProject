@@ -1,0 +1,13 @@
+footer {
+    padding: 10px;
+    text-align: center;
+}
+footer p a {
+    color: #2b343c;
+}
+footer p a:hover, 
+footer p a:active,
+footer p a:visited {
+    text-decoration: none;
+    color: #d9a433;
+}
